@@ -1,0 +1,31 @@
+body{
+    background-image: url(../ASSETS/background4.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.maindiv{
+    display:flex;
+    flex-direction: row;
+}
+.leftnavbar{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:25%;
+}
+.mainsection{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+button{
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #22A7F0;
+    padding: 1vw;
+}

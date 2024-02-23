@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    font-family: cursive;
+    animation-name: colorchanger;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchanger{
+    0% {background-color: black;}
+    25% {background-color: gray;}
+    50% {background-color: white;}
+    75% {background-color: gray;}
+    90% {background-color: teal;}
+    100% {background-color: black}
+}
+.maindiv{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    margin-right:25vw;
+    margin-left:25vw;
+    margin-top:5vh;
+    background-color: teal;
+    align-items: left;
+    justify-content: left;
+}
+.formheader{
+    size:20vw;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    padding-left: 19vw;
+    padding-right: 19vw;
+    margin-bottom: 2vh;
+}
+.forminput{
+    background-color: teal;
+    margin:20px;
+    border-style:ridge;
+    text-align: center;
+    color: black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+    padding: 10px 10px;
+}
+.formstyle{
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding-block: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background-color: grey;
+    color: black;
+    border-style: groove;
+    border-color:azure;
+    font-family: monospace;
+    padding: 5px;
+}
+::placeholder{
+    color:whitesmoke;
+    font-family: courier;
+}

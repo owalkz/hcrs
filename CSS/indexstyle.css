@@ -1,0 +1,82 @@
+body{
+    background-image: url(../ASSETS/heroimage3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.maindiv{
+    display:flex;
+    flex-direction: column;
+}
+.topnavigationdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    padding-top:1vh;
+}
+.topnavigationdiv > a{
+    background-color: #22A7F0;
+    padding:1vw;
+    text-decoration: none;
+    color: white;
+}
+.topnavigationdiv > a:hover{
+    color:whitesmoke;
+    background-color: teal;
+}
+.bodytext{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 1.5vw;
+    margin-top: 55vh;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: f0f5f5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media only screen and (max-width:800px){
+    .heroimagediv{
+        display:flex;
+        flex-direction: column;
+    }
+    .heroimage{
+        width:100vw;
+        height:50vw;
+    }
+    .topdisplaytext{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 5vw;
+        color:white;
+        text-align: center;
+        margin-top: 3vh;
+        margin-right:15vw;
+    }
+    .bodytext{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        font-size: 3vw;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        background-color: f0f5f5;
+        font-size: 2vw;
+        bottom: 0;
+        width: 100%;
+        position: fixed;
+    }
+}
